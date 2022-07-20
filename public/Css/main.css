@@ -1,0 +1,700 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --btn-bg-gradient: linear-gradient(90deg, rgb(247, 215, 147) 0%, rgb(241, 188, 64) 63%, rgb(252, 165, 4) 100%);
+    --btn-border:#be9af3;
+
+
+}
+/* -----------------------------globale-------------------------- */
+.primary-btn{
+    border:  2px solid var(--btn-border);
+    border-radius: 15px ;
+    padding: .8rem 1.5rem;
+    background: var(--btn-bg-gradient);
+}
+.video-btn{
+    border:  2px solid var(--btn-border);
+    border-radius: 50% ;
+    width:3rem;
+    height:3rem;
+    font-size:1.3rem;
+    color: rgb(252, 165, 4);
+    background: white;
+}
+.cadre-wrapper{
+    width: 75%;
+    margin-top: 2rem;
+    height: 30rem;
+    background: linear-gradient(145deg, rgba(197,197,248,1) 0%, rgba(119,108,200,1) 100%);
+    border: solid 1rem white;
+    border-top-right-radius:50% ;
+    border-top-left-radius:50% ;
+    border-bottom-right-radius:50px ;
+    border-bottom-left-radius:50px ;
+    z-index: 999;
+    box-shadow: 0px 0px 50px 0px #be9af3;
+}
+.title-main{
+    font-family: 'Roboto',sans-serif;
+    color: #6d549f;
+    font-weight: 900;
+}
+.title-icon-wrapper{
+    padding: .8rem .5rem .6rem .5rem;
+    background: linear-gradient(145deg, #ad80fd 0%, #9a54e0 100%);
+    border-radius:12px;
+    margin-right: 1rem;
+    border: solid 1px #f4eaf4;
+    margin-top: -.5rem;
+}
+.title-icon-wrapper img{
+    width: 2rem;
+}
+.icon-wrapper{
+    padding: .6rem .4rem .4rem .4rem;
+    background-color: #8339ff;
+    border-radius:10px;
+    width: 3.5rem;
+    height:3.8rem;
+    margin: auto;
+    border: solid 1px #f4eaf4;
+
+}
+.icon-wrapper img{
+    width: 2.5rem;
+    margin: auto;
+}
+.subtitle{
+    color: #71599b;
+    margin-top: .5rem;
+}
+.j-block{
+    display: block;
+}
+.sticky{
+    position: fixed !important;
+    background: rgba(153, 83, 223, 0.552) !important;
+
+}
+.hide{
+    display: none;
+}
+/* ----------------------------/globale-------------------------- */
+
+/* -----------------------------navbar--------------------------- */
+header{
+    width: 100%;
+    z-index:10;
+    position: absolute ;
+}
+.navbar-collapse {
+    flex-grow: 0 !important;
+}
+.navbar .container{
+   padding:1rem;
+}
+.navbar{
+   background: transparent;
+   
+   z-index: 200;
+   width: 100%;
+}
+.navbar .navbar-brand img{
+    width: 10rem;
+}
+.navbar a{
+    color: white;
+}
+/* -----------------------------/navbar--------------------------- */
+/* ------------------------------banner--------------------------- */
+.banner-erea{
+    background: url(../assets/banner-bg.png)no-repeat;
+    background-size: cover;
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+    background-position: center;
+    position: relative;
+}
+
+.banner-wrapper .title h1{
+    font-weight: 900;
+    font-size: 4rem;
+    font-family: 'Roboto',sans-serif;
+    color: white;
+    line-height: 4.3rem;
+}
+.banner-wrapper .title p{
+    padding: 1.5rem 0;
+    color: white;
+}
+
+.banner-erea .brands-wrapper{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(145deg, rgba(255,255,255,1) 25%, rgba(255,255,255,0.8) 60%, rgba(255,255,255,1) 100%);
+    z-index: 1;
+}
+.banner-erea .brands-wrapper img{
+    width:13rem;
+}
+.banner-erea .banner-img-wrapper{
+    position: relative;
+}
+.banner-erea .banner-img-wrapper .img-wrapper{
+    height: 35rem;
+    width: 80%;
+    position: absolute;
+    bottom:0;
+    background: url('../assets/banner-girl.png') no-repeat;
+    background-size: contain;
+    background-position: center bottom;
+    margin-bottom: 1rem;
+    margin-left: 1.5rem;
+}
+.banner-erea .banner-img-wrapper{
+    margin-bottom:-2rem;
+}
+.banner-erea .brands-wrapper .brand{
+    padding: .5rem 0;
+    padding-top: 1rem;
+}
+/* -----------------------------/banner--------------------------- */
+/* ------------------------------program-------------------------- */
+.program-erea{
+    padding: 6rem 0;   
+}
+.program-erea .title-wrapper{
+    padding: 2rem;
+}
+.program-erea .programs-wrapper{
+    border: solid 1rem #f4eaf4;
+    border-radius: 3rem;
+    background: linear-gradient(145deg, #ad80fd 0%, rgb(153, 83, 223) 100%);
+    color: white;
+    box-shadow: 0px 0px 50px 0px #be9af3;
+}
+.program-erea .programs-wrapper .row{
+    padding: 0 2.5rem;
+}
+.program-erea .programs-wrapper .program-comtainer{
+    padding: 2rem 1rem  1rem 1rem;
+}
+.program-erea .programs-wrapper .program-comtainer h3{
+    font-family: 'Roboto',sans-serif;
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding-top: 1rem;
+}
+.program-erea .programs-wrapper .program-comtainer p{
+    font-size: .9rem;
+}
+.program-erea .program-comtainer {
+    width:13rem;
+    margin: auto;
+}
+/* -----------------------------/program-------------------------- */
+/* -------------------------------value--------------------------- */
+.value-erea{
+    padding: 6rem 0;
+}
+.value-erea .title-wrapper .title{
+    padding-bottom: .8rem;
+}
+.value-erea .title-wrapper p{
+    color: #71599b;
+}
+.value-erea .values{
+    padding-top: 2.5rem ;
+}
+.value-erea .value-container .value{
+    background-color: #f9f1fd;
+    margin: 1.5rem 0 ;
+    height:10.5rem;
+    border-radius: 25px;
+    padding:1.5rem;
+    padding-top: 0rem;
+    position: relative;
+}
+.value-erea .value-container .value .icon-wrapper{
+    background-color: #a083f2;
+    margin: 0;
+    position: relative;
+    top: -1rem;
+    height: auto;
+    text-align: center;
+    border:#e5dbfb solid 1px;
+
+}
+.value-erea .value-container .value .icon-wrapper img{
+    width: 1.5rem;
+    padding: .2rem 0 .5rem 0;
+   
+}
+.value-erea .value-container .value h3{
+    font-family: 'Roboto',sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #5b3d95;
+    margin: .5rem 0;
+}
+.value-erea .value-container .value p{
+    font-size: .9rem;
+    color: #71599b;
+}
+.value-erea .value-img-wrapper{
+    position: relative;
+}
+.value-erea .value-img-wrapper .img-wrapper{
+    height: 35rem;
+    width: 80%;
+    position: absolute;
+    bottom:0;
+    background: url('../assets/values-img.png') no-repeat;
+    background-size: contain;
+    background-position: center bottom;
+    margin-bottom: 1rem;
+    margin-left: -4rem;
+}
+/* ------------------------------/value--------------------------- */
+/* --------------------------------CTA---------------------------- */
+.CTA-erea{
+    padding: 6rem 0;
+}
+.CTA-erea .CTA-wrapper .title{
+    padding: 2rem 0;
+}
+.CTA-erea .CTA-wrapper{
+    border: solid 1rem #f4eaf4;
+    border-radius: 3rem;
+    background: linear-gradient(145deg, #ad80fd 0%, #9a54e0 100%);
+    color: white;
+    box-shadow: 0px 0px 50px 0px #be9af3;
+    padding: 3rem 0;
+}
+/* -------------------------------/CTA---------------------------- */
+/* --------------------------------menu--------------------------- */
+.menu-erea{
+    padding: 6rem 0;
+}
+.menu-erea .title-icon-wrapper{
+    padding-left: .8rem;
+}
+
+.menu-erea .menu{
+    background-color: rgb(249, 241, 253);
+    width:85%;
+    border: 1px solid white;
+    border-radius: 40px;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+.menu-erea .menu-wrapper{
+    height:27rem;
+    overflow-y: scroll; 
+    overflow-x: hidden; 
+}
+/* width */
+.menu-wrapper::-webkit-scrollbar {
+    width: 10px;
+}
+  
+  /* Track */
+.menu-wrapper::-webkit-scrollbar-track {
+    background: #f4eaf4;
+    border-radius: 10px;
+
+}
+  
+  /* Handle */
+.menu-wrapper::-webkit-scrollbar-thumb {
+    background: #aa77ff;
+    border-radius: 10px;
+}
+  
+  /* Handle on hover */
+.menu-wrapper::-webkit-scrollbar-thumb:hover {
+    background: #833df4;
+}
+  
+
+.menu-erea .menu .icon-wrapper{
+    background-color: #a083f2;
+    margin: 0;
+    height: auto;
+    text-align: center;
+    border:#e5dbfb solid 3px;
+    padding: .8rem .5rem;
+    border-radius:15px;
+}
+.menu-erea .menu .icon-wrapper img{
+    width: 1.5rem;
+}
+.menu-erea .menu h3{
+    color: #6d549f;
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin: auto 1rem;
+}
+
+.menu-erea .recipe-wrapper img {
+    width:10rem;
+}
+.menu-erea .recipe-wrapper .recipe-container{
+    padding: 1.5rem;
+}
+.menu-erea .recipe-wrapper .recipe-img{
+    width: 17rem;
+    background-color: rgb(249, 241, 253);
+    border-top-right-radius:20rem ;
+    border-top-left-radius:20rem ;
+    height:15rem;
+    padding:1.5rem;
+}
+.menu-erea .recipe-wrapper .img-wrapper{
+    border-top-right-radius:20rem ;
+    border-top-left-radius:20rem ;
+    background: linear-gradient(145deg, #ad80fd 0%, #9a54e0 100%);
+    border-bottom-left-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+    border: .8rem solid white;
+    height:14rem;
+    margin:auto;
+    position: relative;
+}
+.menu-erea .recipe-wrapper .title{
+    background-color: rgb(249, 241, 253);
+    width: 17rem;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.menu-erea .recipe-wrapper .recipe-img img{
+    margin-top: 1.5rem;
+}
+.menu-erea .recipe-wrapper h3{
+    margin:0;
+    padding:1.5rem;
+    color: #6d549f;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.menu-erea .recipe-wrapper .primary-btn{
+    margin-bottom: 1.5rem;
+}
+/* -------------------------------/menu--------------------------- */
+/* -------------------------------review-------------------------- */
+.review-erea{
+    padding: 6rem 0;
+}
+.review-erea .review-img-wrapper .img-wrapper{
+    height: 35rem;
+    width: 80%;
+    position: absolute;
+    bottom:0;
+    background: url('../assets/review-img.png') no-repeat;
+    background-size: contain;
+    background-position: center bottom;
+    margin-bottom: 1rem;
+    margin-left: -2rem;
+}
+.review-erea .review-img-wrapper{
+    position: relative;
+}
+.review-erea .review-wrapper{
+    background-color: rgb(249, 241, 253);
+    border-radius: 30px;
+    padding:1.5rem;
+    width:80%;
+    margin-top: 4rem;
+}
+.review-erea .review-wrapper .icon-wrapper{
+    background-color: #a083f2;
+    margin: 0;
+    height: auto;
+    text-align: center;
+    border:#e5dbfb solid 3px;
+    padding: .8rem .5rem;
+    border-radius:15px;
+    margin-top: -2.5rem;
+
+}
+.review-erea .review-wrapper .icon-wrapper img{
+    width: 1.5rem;
+}
+.review-erea .review-wrapper p{
+    color: #71599b;
+}
+.review-erea .review-wrapper h3{
+    margin-top:-1rem;
+    color: #ab7cff;
+}
+/* ------------------------------/review-------------------------- */
+/* -------------------------------footer-------------------------- */
+.footer-erea{
+    padding-top: 6rem;
+    box-shadow: 0px 0px 10px 0px #be9af3;
+}
+.footer-erea a{
+    text-decoration: none;
+}
+.footer-erea .main-footer{
+    margin-bottom: 2rem;
+}
+.footer-erea .main-footer .brand-wrapper{
+    width:36%;
+}
+.footer-erea .main-footer .brand-wrapper img{
+    width:8rem;
+}
+.footer-erea .main-footer .brand-wrapper p{
+    color: #71599b;
+    margin-top: 1rem;
+}
+.footer-erea .main-footer .menus-wrapper{
+    width: 64%;
+}
+
+.footer-erea .main-footer .menus-wrapper h3{
+    font-family: 'Roboto',sans-serif;
+    color: #6d549f;
+    font-weight: 900;
+    font-size: 1.5rem;
+    /* padding-top: 2rem; */
+}
+.footer-erea .main-footer .menus-wrapper p{
+    color: #71599b;
+    margin: .2rem;
+    font-size: 1rem;
+}
+.footer-erea .footer-footer a{
+    color: #71599b;
+
+}
+.footer-erea .footer-footer .policy{
+    padding-left: 1rem;
+}
+/* ------------------------------/footer-------------------------- */
+/* --------------------------------load--------------------------- */
+.load-wrapper{
+    width: 100%;
+    height: 100%;
+   background-color: #ae88f0;
+
+}
+.load-container{
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    padding: 50vh 0;
+}
+.lds-ring {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    
+  }
+  .lds-ring div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border: 8px solid #fdd;
+    border-radius: 50%;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: #71599b transparent transparent transparent;
+  }
+  .lds-ring div:nth-child(1) {
+    animation-delay: -0.45s;
+  }
+  .lds-ring div:nth-child(2) {
+    animation-delay: -0.3s;
+  }
+  .lds-ring div:nth-child(3) {
+    animation-delay: -0.15s;
+  }
+  @keyframes lds-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+/* -------------------------------/load--------------------------- */
+
+
+
+
+@media screen and (max-width:1400px) and (min-width:991px) {
+    .cadre-wrapper{
+        width:90%;
+    }
+}
+@media screen and (max-width:992px) {
+    .banner-erea .banner-wrapper .title-wrapper{
+        width: auto;
+        margin: auto;
+    }
+    .banner-erea{
+        padding-bottom: 7rem;
+    }
+    .banner-erea .cadre-wrapper{
+        margin: auto;
+        margin-top: 10rem;
+    }
+    .banner-erea .brands-wrapper .container{
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .banner-erea .banner-img-wrapper .img-wrapper{
+        margin-left: -.1rem;
+    }
+    .program-erea .title-wrapper .video-btn{
+        display: none;
+    }
+    .value-erea .cadre-wrapper{
+        margin: auto;
+        margin-bottom: 5rem;
+    }
+    .title-wrapper {
+        padding: 2rem;
+    }
+    .value-erea .value-container .value{
+        margin: 1.5rem auto;
+        width: 15rem;
+    }
+    .subtitle {
+        margin-top: 0;
+    }
+    .menu-erea .recepies{
+        margin-top: 3rem;
+    }
+    .review-erea .cadre-wrapper{
+        margin: auto;
+        margin-bottom: 5rem;
+    }
+    .review-erea .review-wrapper {
+        margin: auto;
+        margin-top: 4rem;
+    }
+    .menu-erea .recipe-wrapper .recipe-container {
+        margin: auto;
+    }
+    .menu-erea .recipe-wrapper .recipe-img{
+        margin: auto;
+    }
+    .menu-erea .recipe-wrapper .title{
+        margin: auto;
+    }
+}
+@media screen and (max-width:768px) and (min-width:350px) {
+    .program-erea .programs-wrapper{
+        width:20rem ;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:1200px) and (min-width:992px) {
+    .menu-erea .recipe-wrapper .recipe-container {
+        padding:0;
+    }
+    .recepie-1 .recipe-container{
+        padding-right: 1rem !important;
+    }
+    .recepie-2 .recipe-container{
+        padding-left: 1rem !important;
+    }
+}
+@media screen and (max-width:576px){
+    .cadre-wrapper{
+        height: 80vw;
+    }
+}
+@media screen and (max-width:414px) {
+    .j-block{
+        display: inline; 
+    }
+   
+}
+@media screen and (max-width:441px){
+    
+    .banner-erea .brands-wrapper img {
+        width: 100%;
+    }
+    .banner-erea .brands-wrapper .brand{
+        width: 50%;
+    }
+    .title-main{
+        font-size: 5.5vw;
+        margin-top: .4rem;
+    }
+    
+}
+@media screen and (max-width:363px){
+    .title-icon-wrapper {
+        padding: 0.3rem 0.5rem 0.6rem 0.5rem;
+        height: 3rem;
+        margin-top: .3rem;
+    }
+    .cadre-wrapper{
+        width:90%;
+    }
+    .banner-erea .banner-img-wrapper .img-wrapper {
+        margin-left: 1.5rem;
+    }
+    .program-erea .program-comtainer{
+        width: 100%;
+    }
+    .program-erea .programs-wrapper .row {
+        padding: 0;
+    }
+    .value-erea .value-img-wrapper .img-wrapper{
+        margin-left: -1.5rem;
+    }
+    .value-erea .value-container .value{
+        width: 100%;
+    }
+    .title-wrapper {
+        padding: .2rem;
+    }
+    .menu-erea .recipe-wrapper .title{
+        width: 95%;
+    }
+    .menu-erea .recipe-wrapper .recipe-img{
+        width: 95%;
+    }
+    .menu-erea .recipe-wrapper img{
+        width: 90%;
+    }
+
+}
+@media screen and (max-width:992px) and (min-width:768px){
+    .footer-erea .main-footer .company-menu ,.support-menu{
+        padding-top: 2rem;
+    }
+}
+@media screen and (max-width:768px){
+    .footer-erea .main-footer .menus-wrapper h3{
+        padding-top: 2rem;
+    }
+    .footer-erea .main-footer .brand-wrapper {
+        width: auto;
+         text-align: center;
+    }
+    .footer-erea .main-footer .menus-wrapper {
+        width: auto;
+    }
+    .footer-erea .main-footer .menus-wrapper .col-lg-3{
+        width: auto;
+        margin: auto;
+    }
+}

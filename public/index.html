@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eatly</title>
+    <link rel="stylesheet" href="./Css/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+              <a class="navbar-brand " href="#">
+                <img src="./assets/logo.png" class='img-fluid' alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse w-100" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="#">Programs</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">News</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                  </li>
+                </ul>
+                <div class=" navbtn" role="search">
+                    <button class="primary-btn" type="submit">Let's Talk</button>
+                </div> 
+              </div>              
+            </div>
+          </nav>
+    </header>
+    <div class="load-wrapper hide">
+        <div class="load-container">
+           <div class="lds-ring "><div></div><div></div><div></div><div></div></div>   
+        </div>       
+    </div>
+    <main class="main-body">       
+        <section class="banner-erea">
+            <div class="container">
+                <div class="banner-wrapper">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12 title-wrapper">
+                            <div class="title">
+                                <h1>
+                                    <span class="d-block ">Changing</span>
+                                    <span class="d-block">your <span class="text-warning">eating</span></span>
+                                    <span class="d-block">habits</span>
+                                </h1>
+                                <p>
+                                    <span class="d-block">Always take care of your health starting from</span>
+                                        <span class="d-block">the food menu that you consume evry day</span>
+                                </p>
+                            </div>
+                            <div class="btn-wrapper d-flex">
+                                <div>
+                                    <button class="primary-btn">
+                                        Explore Menu
+                                    </button>   
+                                </div>                               
+                                <div class="video-btn-wrapper d-flex ps-4">
+                                    <Button class="video-btn ">
+                                        <i class="bi bi-play-fill "></i>
+                                    </Button>
+                                    <p class="pt-2 ps-2 text-white">
+                                        Watch Video
+                                    </p>
+                                </div>                                                               
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12" style="z-index: 9;">
+                            <div class="banner-img-wrapper">
+                                <div class="cadre-wrapper">
+                                    <div class="img-wrapper"></div>    
+                                </div>
+                                
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+            <div class="brands-wrapper ">
+                <div class="container d-flex">
+                    <div class="brand-1 brand">
+                        <img src="./assets/banner-brands/brand-1.png" alt="">
+                    </div>
+                    <div class="brand-2 brand">
+                        <img src="./assets/banner-brands/brand-2.png" alt="">
+                    </div>   
+                </div>               
+            </div>
+        </section>
+        <section class="program-erea">
+            <div class="container">
+                <div class="title-wrapper d-flex justify-content-between w-100">
+                    <div class="title d-flex">
+                        <div class="title-icon-wrapper">
+                            <img src="./assets/icons/crown-icon.png" class="img-fluid" alt="" >
+                        </div>
+                        <h2 class="title-main">Our Best Programs</h2>
+                    </div>
+                    <div class="nab-btn">
+                        <button class="video-btn"><i class="bi bi-chevron-left"></i></button>
+                        <button class="video-btn"><i class="bi bi-chevron-right"></i></button>
+                    </div>  
+                </div>
+                <div class="programs-wrapper">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 col-sm-12 text-center">
+                            <div class="program-comtainer">
+                                <div class="icon-wrapper">
+                                    <img src="./assets/icons/chef-icon.png" class="img-fluid" alt="">
+                                </div>
+                                <h3>Healthy Recipe</h3>
+                                <p>Healthier Recipes, from food & nutrition experts</p>   
+                            </div>                          
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12 text-center">
+                            <div class="program-comtainer">
+                                 <div class="icon-wrapper">
+                                    <img src="./assets/icons/meal-icon.png" class="img-fluid" alt="">
+                                </div>
+                                <h3>Healthy Meals</h3>
+                                <p>Learn how to become a meal-planninng pro</p>
+                            </div>                           
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12 text-center">
+                            <div class="program-comtainer">
+                                 <div class="icon-wrapper">
+                                    <img src="./assets/icons/spoon-icon.png" class="img-fluid" alt="">
+                                </div>
+                                <h3>Healthy Eating</h3>
+                                <p>Eat healthy with our export & Inspiration tips</p>
+                            </div>                            
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12 text-center">
+                            <div class="program-comtainer">
+                                <div class="icon-wrapper">
+                                    <img src="./assets/icons/badge-icon.png" class="img-fluid" alt="">
+                                </div>
+                                <h3>Healthy Lifes</h3>
+                                <p>Your life is tour choise, make yourself healthier</p>
+                            </div>                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="value-erea">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="value-img-wrapper">
+                            <div class="cadre-wrapper">
+                                <div class="img-wrapper"></div>  
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="value-container">
+                            <div class="title-wrapper">
+                                <div class="title d-flex">
+                                    <div class="title-icon-wrapper">
+                                        <img src="./assets/icons/diamond-icon.png" alt="">
+                                    </div>                                    
+                                    <h2 class="title-main">Our Value To Help You</h2>
+                                </div>
+                                <div class="subtitle">
+                                    <p>
+                                        <span class="j-block">We always want to provide the best value foe you </span> 
+                                        <span class="j-block">and your health, join us to maximize the benefits</span>  
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="values">
+                                <div class="row">
+                                    <div class=" col-md-6 col-sm-12">
+                                        <div class="value text-center">
+                                            <div class="icon-wrapper">
+                                                <img src="./assets/icons/heart-icon.png" alt="">
+                                            </div>
+                                            <h3>Becomes Healthier</h3>
+                                            <p>
+                                                <span class="d-block">immune will stranger if</span> 
+                                                <span class="d-block">the body is the healthier</span>  
+                                            </p>
+                                        </div>                                       
+                                    </div>
+                                    <div class=" col-md-6 col-sm-12">
+                                        <div class="value text-center">
+                                            <div class="icon-wrapper">
+                                                <img src="./assets/icons/engrease-icon.png" alt="">
+                                            </div>
+                                            <h3>Increase Energy</h3>
+                                            <p>
+                                                <span class="d-block">Have enough energy can</span> 
+                                                <span class="d-block">help carry out a routine</span>                 
+                                            </p>    
+                                        </div>                                        
+                                    </div>
+                                    <div class=" col-md-6 col-sm-12">
+                                        <div class="value text-center">
+                                            <div class="icon-wrapper">
+                                                <img src="./assets/icons/badge-2-icon.png" alt="">
+                                            </div>
+                                            <h3>Controlling Weight</h3>
+                                            <p>
+                                                <span class="d-block">Body will ffeel lighter</span>  
+                                                <span class="d-block">and will not be easly tired</span> 
+                                                
+                                            </p>
+                                        </div>                                        
+                                    </div>
+                                    <div class="col-md-6 col-sm-12">
+                                        <div class="value text-center">
+                                            <div class="icon-wrapper">
+                                                <img src="./assets/icons/star-icon.png" alt="">
+                                            </div>
+                                            <h3>Becomes Happier</h3>
+                                            <p>
+                                                <span class="d-block"> Livinng a healthy life also </span> 
+                                                <span class="d-block">inncrease self-confidence</span>  
+                                            </p>    
+                                        </div>                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="CTA-erea">
+            <div class="container">
+                <div class="CTA-wrapper">
+                    <div class="title-wrapper text-center">
+                        <div class="icon-wrapper">
+                            <img src="./assets/icons/flag-icon.png" alt="">
+                        </div>
+                        <div class="title">
+                            <h2>
+                                Get started With <span class="text-warning">Eatly</span>
+                            </h2>
+                            <p>
+                                <span class="j-block">Discover tips & news for your health from experts</span>
+                                <span class="j-block">and get the best discounts by getting started </span>
+                            </p>   
+                        </div>                        
+                        <div>
+                            <button class="primary-btn">
+                                Get Strated
+                            </button>   
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="menu-erea">
+            <div class="container">
+                <div class="title-wrapper">
+                    <div class="title d-flex">
+                        <div class="title-icon-wrapper">
+                            <img src="./assets/icons/menu-icon.png" alt="">
+                        </div>                                    
+                        <h2 class="title-main">Try Our Healthy Menu</h2>
+                    </div>
+                    <div class="subtitle">
+                        <p >
+                            <span class="j-block ">We provide a variety of healthy recipes that have </span> 
+                            <span class="j-block ">been curated by our best nutritionists</span>  
+                        </p>
+                    </div>
+                </div>
+                <div class="menu-container">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-12">
+                            <div class="menu-wrapper">
+                                <div class="menu-1 menu d-flex">
+                                    <div class="icon-wrapper">
+                                        <img src="./assets/icons/clock-icon.png" alt="">
+                                    </div>
+                                    <h3> Breakfast Recipes</h3>
+                                </div>
+                                <div class="menu-2 menu d-flex">
+                                    <div class="icon-wrapper">
+                                        <img src="./assets/icons/plane-icon.png" alt="">
+                                    </div>
+                                    <h3>Low-Calorie Recipes</h3>
+                                </div>
+                                <div class="menu-3 menu d-flex">
+                                    <div class="icon-wrapper">
+                                        <img src="./assets/icons/calend-icon.png" alt="">
+                                    </div>
+                                    <h3>Holiday Recipes </h3>
+                                </div>
+                                <div class="menu-4 menu d-flex">
+                                    <div class="icon-wrapper">
+                                        <img src="./assets/icons/lock-icon.png" alt="">
+                                    </div>
+                                    <h3>Restriction Recipes</h3>
+                                </div>
+                                <div class="menu-1 menu d-flex">
+                                    <div class="icon-wrapper">
+                                        <img src="./assets/icons/clock-icon.png" alt="">
+                                    </div>
+                                    <h3> Breakfast Recipes</h3>
+                                </div>
+                                <div class="menu-2 menu d-flex">
+                                    <div class="icon-wrapper">
+                                        <img src="./assets/icons/plane-icon.png" alt="">
+                                    </div>
+                                    <h3>Low-Calorie Recipes</h3>
+                                </div>
+                                <div class="menu-3 menu d-flex">
+                                    <div class="icon-wrapper">
+                                        <img src="./assets/icons/calend-icon.png" alt="">
+                                    </div>
+                                    <h3>Holiday Recipes </h3>
+                                </div>
+                                <div class="menu-4 menu d-flex">
+                                    <div class="icon-wrapper">
+                                        <img src="./assets/icons/lock-icon.png" alt="">
+                                    </div>
+                                    <h3>Restriction Recipes</h3>
+                                </div>
+                                <div class="menu-1 menu d-flex">
+                                    <div class="icon-wrapper">
+                                        <img src="./assets/icons/clock-icon.png" alt="">
+                                    </div>
+                                    <h3> Breakfast Recipes</h3>
+                                </div>
+                                <div class="menu-2 menu d-flex">
+                                    <div class="icon-wrapper">
+                                        <img src="./assets/icons/plane-icon.png" alt="">
+                                    </div>
+                                    <h3>Low-Calorie Recipes</h3>
+                                </div>
+                                <div class="menu-3 menu d-flex">
+                                    <div class="icon-wrapper">
+                                        <img src="./assets/icons/calend-icon.png" alt="">
+                                    </div>
+                                    <h3>Holiday Recipes </h3>
+                                </div>
+                                <div class="menu-4 menu d-flex">
+                                    <div class="icon-wrapper">
+                                        <img src="./assets/icons/lock-icon.png" alt="">
+                                    </div>
+                                    <h3>Restriction Recipes</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="recepies">
+                                <div class="d-flex justify-content-center w-100 flex-wrap">
+                                    <div class="recepie-1">
+                                        <div class="recipe-wrapper">
+                                            <div class="recipe-container text-center">
+                                                <div class="recipe-img">
+                                                    <div class="img-wrapper">
+                                                     <img src="./assets/recipes/red-onion-recipe.png" alt="">   
+                                                    </div>              
+                                                </div>
+                                                <div class="title">
+                                                    <h3>
+                                                        Red Onions With Chopped Cabbage
+                                                    </h3>
+                                                    <div>
+                                                        <button class="primary-btn">
+                                                            Try Now
+                                                        </button>   
+                                                    </div>    
+                                                </div>                                                  
+                                            </div>                                            
+                                        </div>
+                                    </div>
+                                    <div class="recepie-2">
+                                        <div class="recipe-wrapper">
+                                            <div class="recipe-container text-center">
+                                                <div class="recipe-img">
+                                                    <div class="img-wrapper">
+                                                     <img src="./assets/recipes/apple-cack-recipe.png" alt="">   
+                                                    </div>              
+                                                </div>
+                                                <div class="title">
+                                                    <h3>
+                                                        Low Fat Apple Cake With White Cream
+                                                    </h3>
+                                                    <div>
+                                                        <button class="primary-btn">
+                                                            Try Now
+                                                        </button>   
+                                                    </div>    
+                                                </div>                                                  
+                                            </div>                                            
+                                        </div>                                     
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                            
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="review-erea">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="review-img-wrapper">
+                            <div class="cadre-wrapper">
+                                <div class="img-wrapper"></div>    
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="review-container">
+                            <div class="title-wrapper">
+                                <div class="title d-flex">
+                                    <div class="title-icon-wrapper">
+                                        <img src="./assets/icons/mail-icon.png" alt="">
+                                    </div>                                    
+                                    <h2 class="title-main">Testimonials About Us</h2>
+                                </div>
+                                <div class="subtitle">
+                                    <p>
+                                        <span class="j-block">In the smallest case we always give your best, find</span> 
+                                        <span class="j-block">out what other users have to say about us</span>  
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="review-container">
+                                <div class="review-wrapper">
+                                    <div class="icon-wrapper">
+                                        <img src="./assets/icons/sms-icon.png" alt="">
+                                    </div>
+                                    <div class="review">
+                                        <p class="py-3">
+                                            "Eatly really helps me to maintain food intake, is perfect for those of 
+                                            you who whant to dient or just make the body more healthy. In addition
+                                            Eatly helped me to create a menu that is suitable for the family"
+                                        </p>
+                                        <h3>
+                                            Rara Sanchez
+                                        </h3>
+                                        <p>Freelancer</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-erea">
+            <div class="container">
+                <div class="main-footer d-md-flex">
+                    <div class="brand-wrapper">
+                        <div class="brand-logo">
+                            <img src="./assets/logo.png" alt="">
+                        </div>
+                        <div class="brand-mission">
+                            <p>
+                                <span class="d-block">We have a mission to</span>
+                                <span class="d-block">make people around the</span>
+                                <span class="d-block">world better through a</span>
+                                <span class="d-block">healthier diet</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="menus-wrapper ">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <div class="about-menu footer-menu">
+                                    <a href="">
+                                        <h3 class="title-mainn">About</h3> 
+                                    </a> 
+                                    <a href=""><p>About Us</p></a>
+                                    <a href=""><p>Features</p></a>
+                                    <a href=""><p>News & Blog</p></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <div class="movement-menu footer-menu">
+                                    <a href="">
+                                        <h3 class="title-mainn">Movement</h3>
+                                    </a> 
+                                    <a href=""><p>What Eatly</p> </a>
+                                    <a href=""><p>Support Us</p></a>
+
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <div class="company-menu footer-menu">
+                                    <a href="">
+                                        <h3 class="title-mainn">Company</h3>
+                                    </a> 
+                                    <a href=""><p>Why Eatly</p></a>
+                                    <a href=""><p>Capital</p></a>
+                                    <a href=""><p>Security</p></a>
+
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                 <div class="support-menu footer-menu">
+                                    <a href="">
+                                        <h3 class="title-mainn">Support</h3> 
+                                    </a>
+                                    <a href=""><p>FAQs</p></a>
+                                    <a href=""><p>Support Center</p></a>
+                                    <a href=""><p>Contact Us</p></a>
+
+                                </div> 
+                            </div>
+                        </div>                         
+                    </div>
+                </div>
+                <div class="footer-footer d-flex justify-content-between">
+                    <div class="copyright">
+                        <p>@2022 Eatly. All right reserved</p>
+                    </div>
+                    <div class="policy">
+                        <a href="" class="me-4">Terms & Agreements</a>
+                        <a href="">Privacy Policy</a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="./js/loading.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
